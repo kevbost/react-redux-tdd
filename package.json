@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
@@ -23,6 +24,7 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
+    "axios-mock-adapter": "^1.15.0",
     "babel-jest": "^23.4.2",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
