@@ -8,11 +8,11 @@ export const setItems = ( items ) => {
 }
 
 export const fetchData = () => {
-	return ( dispatch ) => {
-		return new Promise( resolve => {
-			setTimeout( resolve, 1500 )
+	return ( dispatch, getState ) => {
+		return new Promise(( resolve, reject ) => {
+			setTimeout( resolve, 1000)
 		})
-			.then( () => {
+			.then(() => {
 				dispatch( setItems( mockItems ) )
 			})
 	}

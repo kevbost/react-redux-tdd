@@ -2,12 +2,12 @@
 
 We need a feature that will fetch data and render a list for each item found.
 
-# UI state
+# UI state (redux)
 - Action and reducer to store items in state 
-- Async action to fetch data 
+- Async action to fetch data ( more later )
 - Selector to get items from state 
 
-# UI 
+# UI presentation (react)
 - Component to render list of items 
 - Component to render for each individual item
 
